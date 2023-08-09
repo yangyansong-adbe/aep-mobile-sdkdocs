@@ -4,6 +4,12 @@ description: Release notes and change logs for the Adobe Experience Platform Mob
 
 # Release notes
 
+## Aug 2, 2023
+
+### Android Core  2.3.1
+
+* Fixed an issue with displaying local notifications.
+
 ## Aug 8, 2023
 
 ### Android Core 2.3.1
