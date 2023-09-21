@@ -1,45 +1,27 @@
----
-title: Adobe Experience Platform Edge Network release notes
-description: The release notes for the Adobe Experience Platform Edge Network mobile extension.
-keywords:
-- Edge Network
-- Release notes
----
-
-# Release Notes
 
 ## September 1, 2023
 
-### iOS Edge 4.2.0
-
-* Added the ability to request a "completion" event when making an experience event request. The `contentComplete` event is dispatched after the request connection is closed.
-
 ### Android Edge 2.3.0
 
-* Added the ability to request a "completion" event when making an experience event request. The `contentComplete` event is dispatched after the request connection is closed.
+## v2.3.0
 
-## July 21, 2023
+-  Added the ability to request a "completion" event when making an experience event request. The `contentComplete` event is dispatched after the request connection is closed.
 
-### iOS Edge 4.1.0
+## What's Changed
+* Fix warnings in Gradle files by @kevinlind in https://github.com/adobe/aepsdk-edge-android/pull/80
+* Dispatch 'complete' event when streaming connection closed by @kevinlind in https://github.com/adobe/aepsdk-edge-android/pull/83
+* Bump version to 2.3.0 by @kevinlind in https://github.com/adobe/aepsdk-edge-android/pull/84
+* Add content complete event to toc, update response content description by @kevinlind in https://github.com/adobe/aepsdk-edge-android/pull/85
+* Merge to Staging for v2.3.0 release by @kevinlind in https://github.com/adobe/aepsdk-edge-android/pull/86
+* Revert 'asNode(null)' to 'asNode()'. by @kevinlind in https://github.com/adobe/aepsdk-edge-android/pull/87
+* Merge to Staging for 2.3.0 Gradle fix for publish by @kevinlind in https://github.com/adobe/aepsdk-edge-android/pull/88
+* Replace hardcoded event source with EventSource.CONTENT_COMPLETE by @kevinlind in https://github.com/adobe/aepsdk-edge-android/pull/89
+* Merge to Staging for 2.4.0 release, updates Core dependency to 2.4.0 by @kevinlind in https://github.com/adobe/aepsdk-edge-android/pull/90
+* Merge to Main for 2.3.0 release by @kevinlind in https://github.com/adobe/aepsdk-edge-android/pull/91
 
-* Added support for chaining related events.
-* Fixed location of event index when decoding network response errors and warnings.
 
-### Android Edge 2.2.0
-
-* Added support for chaining related events.
-* Fixed location of event index when decoding network response errors and warnings.
-
-## June 1, 2023
-
-### iOS Edge 4.0.0
-
-Major version update for [Edge Network](./index.md) for Adobe Experience Platform Mobile SDKs on iOS compatible with Mobile Core 4.0.0. The current release includes the following changes:
-
-* Updated the minimum supported version to iOS 11.0 and tvOS 11.0.
-* Include XCFrameworks built with Xcode 14.1 with the GitHub release.
-* Removed deprecated class `XDMFormatters`. Use functions `getISO8601UTCDateWithMilliseconds()` and `getISO8601FullDate()` in Date class extension from AEPServices module instead.
-* Fixed issue where empty "payload" array was not included in events dispatched after receiving Edge Network response.
+**Full Changelog**: https://github.com/adobe/aepsdk-edge-android/compare/v2.2.0...v2.3.0
+ not included in events dispatched after receiving Edge Network response.
 
 ## April 11, 2023
 

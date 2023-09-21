@@ -1,3 +1,9 @@
+
+## September 14, 2023
+
+### AEP React Native Core 5.0.1
+
+-  Updated the docs to call out trackAction/trackState are supported through Edge Network or Edge Bridge extensions.
 ---
 title: Mobile Core release notes
 description: The release notes for the Mobile Core extensions.
