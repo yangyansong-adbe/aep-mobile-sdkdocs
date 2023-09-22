@@ -8,6 +8,14 @@ keywords:
 
 # Release Notes
 
+## September 21, 2023
+
+### Android Campaign Standard 2.0.6
+
+- Update the AEPSDK Core dependency to 2.3.1 to resolve a local notification display [issue](https://github.com/adobe/aepsdk-core-android/commit/014afcdfe1029cf5464f9744ca7ff6b0c898724c)
+- Verify rule engine response event contains an in-app message before processing
+- Update test app with code to request notification permission for API 33 or higher
+
 ## July 12, 2023
 
 ### Android Campaign 2.0.5
