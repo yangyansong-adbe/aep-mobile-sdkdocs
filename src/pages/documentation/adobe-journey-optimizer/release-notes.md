@@ -9,6 +9,25 @@ keywords:
 
 # Release Notes
 
+## September 27, 2023
+
+### iOS Messaging 4.1.0
+
+## What’s Changed
+
+* To main - Release version 4.1.0-  HandleNotificationResponse API responds with PushTrackingStatus enum (#216) @PravinPK
+* Address comments of PR#216 (#224) @PravinPK
+* Documentation update for 4.1.0 release (#221) @PravinPK
+* More tests around PushTrackingStatus (#215) @PravinPK
+*  HandleNotificationResponse API returns MessagingPushTrackingStatus enum (#213) @PravinPK
+* vdev 4.1.0 to Main (#208) @PravinPK
+* Better readable comments (#211) @PravinPK
+* Updating version to 4.1.0 (#210) @github-actions
+* [MOB-19374] - Do not process Push Notification tracking event if AJO tracking keys are absent (#207) @PravinPK
+* [MOB 18293] - Handling Notification Actions (#198) @PravinPK
+* MOB 18751 - Simplified HandleNotificationResponse API  (#197) @PravinPK
+
+
 ## June 2, 2023
 
 ### iOS Messaging 4.0.0

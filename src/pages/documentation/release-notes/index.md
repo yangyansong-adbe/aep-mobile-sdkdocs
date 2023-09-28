@@ -7,6 +7,37 @@ Keywords:
 
 # Release Notes
 
+## September 28, 2023
+
+### Android Core 2.5.0
+
+- Added getter APIs `getLargeIconResourceID` and `getSmallIconResourceID` to MobileCore for retrieving the icon resource IDs set from the application.
+
+## September 27, 2023
+
+### iOS Messaging 4.1.0
+
+## What’s Changed
+
+* To main - Release version 4.1.0-  HandleNotificationResponse API responds with PushTrackingStatus enum (#216) @PravinPK
+* Address comments of PR#216 (#224) @PravinPK
+* Documentation update for 4.1.0 release (#221) @PravinPK
+* More tests around PushTrackingStatus (#215) @PravinPK
+*  HandleNotificationResponse API returns MessagingPushTrackingStatus enum (#213) @PravinPK
+* vdev 4.1.0 to Main (#208) @PravinPK
+* Better readable comments (#211) @PravinPK
+* Updating version to 4.1.0 (#210) @github-actions
+* [MOB-19374] - Do not process Push Notification tracking event if AJO tracking keys are absent (#207) @PravinPK
+* [MOB 18293] - Handling Notification Actions (#198) @PravinPK
+* MOB 18751 - Simplified HandleNotificationResponse API  (#197) @PravinPK
+
+
+## September 14, 2023
+
+### AEP React Native Core 5.0.1
+
+-  Updated the docs to call out trackAction/trackState are supported through Edge Network or Edge Bridge extensions.
+
 ## September 26, 2023
 
 ### Android BOM 2.4.1
