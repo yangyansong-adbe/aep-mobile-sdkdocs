@@ -7,6 +7,66 @@ Keywords:
 
 # Release Notes
 
+## October 3, 2023
+
+### Android BOM 2.5.0
+
+* This BOM ([Bill of Materials](https://central.sonatype.com/artifact/com.adobe.marketing.mobile/sdk-bom)) release includes changes to the following Android extensions.
+
+<Accordion>
+
+<AccordionItem header='Expand'>
+
+| Extension artifact | BOM (2.4.1) | BOM (2.5.0) |
+|-----|-----|-----|
+| **com.adobe.marketing.mobile:core** | **2.4.0** | **2.5.0**|
+| **com.adobe.marketing.mobile:messaging** | **2.1.4** | **2.2.0**|
+| com.adobe.marketing.mobile:analytics | 2.0.3 | 2.0.3 |
+| com.adobe.marketing.mobile:assurance | 2.1.1 | 2.1.1 |
+| com.adobe.marketing.mobile:audience | 2.0.0 | 2.0.0 |
+| com.adobe.marketing.mobile:campaign | 2.0.6 | 2.0.6 |
+| com.adobe.marketing.mobile:campaignclassic | 2.0.1 | 2.0.1 |
+| com.adobe.marketing.mobile:edge | 2.3.0 | 2.3.0 |
+| com.adobe.marketing.mobile:edgebridge | 2.1.0 | 2.1.0 |
+| com.adobe.marketing.mobile:edgeconsent | 2.0.0 | 2.0.0 |
+| com.adobe.marketing.mobile:edgeidentity | 2.0.1 | 2.0.1 |
+| com.adobe.marketing.mobile:edgemedia | 2.0.0 | 2.0.0 |
+| com.adobe.marketing.mobile:identity | 2.0.3 | 2.0.3 |
+| com.adobe.marketing.mobile:lifecycle | 2.0.4 | 2.0.4 |
+| com.adobe.marketing.mobile:media | 3.0.0 | 3.0.0 |
+| com.adobe.marketing.mobile:optimize | 2.0.1 | 2.0.1 |
+| com.adobe.marketing.mobile:places | 2.1.0 | 2.1.0 |
+| com.adobe.marketing.mobile:signal | 2.0.1 | 2.0.1 |
+| com.adobe.marketing.mobile:target | 2.0.1 | 2.0.1 |
+| com.adobe.marketing.mobile:userprofile | 2.0.1 | 2.0.1 |
+
+</AccordionItem>
+
+</Accordion>
+
+## September 28, 2023
+
+### Android Core 2.5.0
+
+- Added getter APIs `getLargeIconResourceID` and `getSmallIconResourceID` to MobileCore for retrieving the icon resource IDs set from the application.
+
+## September 27, 2023
+
+### iOS Messaging 4.1.0
+
+## Release Notes
+- Added new notifcation tracking API `handleNotificationResponse` with parameters UNNotificationResponse and an optional callback the returns `PushTrackingStatus` enum.
+- The new API will automatically handle the click behaviour (OPENAPP, WEBURL, DEEPLINK) defined for the notification.
+- Deprecated the notifcaiton tracking API `handleNotificationResponse` with parameters UNNotificationResponse, applicationOpened, and customActionId.
+-  Fixed a bug on notification tracking API `handleNotificationResponse` to stop sending tracking hits to edge servers when the notification does not contain tracking information.
+
+
+## September 14, 2023
+
+### AEP React Native Core 5.0.1
+
+-  Updated the docs to call out trackAction/trackState are supported through Edge Network or Edge Bridge extensions.
+
 ## September 26, 2023
 
 ### Android BOM 2.4.1
