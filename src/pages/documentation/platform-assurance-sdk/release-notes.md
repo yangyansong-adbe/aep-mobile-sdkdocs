@@ -8,6 +8,22 @@ keywords:
 
 # Release Notes
 
+## October 20, 2023
+
+### Android Assurance 2.2.0
+
+## Release Notes
+* Added support for receiving large events. 
+* Fixed an issue that caused incorrect manifest contents being sent in the `clientInfo` event.
+
+## October 19, 2023
+
+### iOS Assurance 4.1.0
+
+* Fixed a mismatch in the client and sessionID keys
+* Added stitching support for chunked AssuranceEvents
+
+
 Release notes and change logs for the Adobe Experience Platform Assurance extension
 
 ## July 20, 2023

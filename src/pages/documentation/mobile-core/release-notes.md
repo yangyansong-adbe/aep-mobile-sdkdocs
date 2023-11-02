@@ -8,6 +8,24 @@ keywords:
 
 # Release Notes
 
+## October 31, 2023
+
+### iOS Core 4.2.0
+
+* Migrates storage from UserDefaults to iOS file system.
+
+
+<InlineAlert variant="info" slots="text"/>
+Downgrading from this version of Core is unsupported, as it will cause undefined behavior.
+
+## October 30, 2023
+
+### Android Core 2.5.1
+
+* Fixed a resource leak in `StreamUtils`.
+* Fixed a crash when displaying in-app messages.
+
+
 ## September 28, 2023
 
 ### Android Core 2.5.0
