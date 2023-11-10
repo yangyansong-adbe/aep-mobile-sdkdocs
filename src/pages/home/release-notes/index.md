@@ -7,6 +7,12 @@ Keywords:
 
 # Release notes
 
+## October 20, 2023
+
+### Android Target 2.0.2
+
+* Added support for X-EXC-SDK and X-EXC-SDK-Version headers containing SDK info and version details to help determine requests' source when using Adobe Target Splunk queries.
+
 ## October 31, 2023
 
 ### iOS Core 4.2.0
