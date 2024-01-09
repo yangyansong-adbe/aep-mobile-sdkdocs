@@ -8,6 +8,12 @@ keywords:
 
 # Release notes
 
+## January 4, 2024
+
+### iOS Core 4.2.1
+
+- Reverts storage for tvOS back to UserDefaults.
+
 ## December 13, 2023
 
 ### Android Core 2.6.1

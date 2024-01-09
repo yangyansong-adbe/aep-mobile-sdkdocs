@@ -9,6 +9,23 @@ keywords:
 
 # Release notes
 
+## January 9, 2024
+
+### iOS Media 4.0.1
+
+## Highlights
+
+* Fixes configuration handling where the Collection API Server with first-party domain and /va path was not accepted.
+
+## What’s Changed
+
+* Merge to Main for v4.0.1 release (#75) @kevinlind
+* dev->staging v4.0.1 (#74) @emdobrin
+* Bump version to v4.0.1 (#73) @emdobrin
+* Fix the issue to allow trackingServer to have path /va for first party domains(tracking server) (#72) @addb
+* Merge down from main --> dev (#71) @cacheung
+
+
 ## June 7, 2023
 
 ### iOS Media 4.0.0
