@@ -9,6 +9,35 @@ keywords:
 
 # Release notes
 
+## March 1, 2023
+
+### iOS EdgeIdentity 1.2.0
+
+## Changes
+
+
+
+**Full Changelog**: https://github.com/adobe/aepsdk-edgeidentity-ios/compare/1.1.0...1.2.0
+
+## What's Changed
+* Downmerge main -> dev after 1.1.0 release by @emdobrin in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/84
+* Bump tzinfo from 1.2.9 to 1.2.10 by @dependabot in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/86
+* Update SPM instruction and ci xcode version by @cacheung in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/88
+* main -> dev by @emdobrin in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/87
+* Add tvOS support by @addb in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/90
+* Version bump and pod updates for tvOS support release by @addb in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/91
+* Update project settings and ci workflow by @addb in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/95
+* Fix SwiftLint in Xcode build phase by @kevinlind in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/96
+* Update API docs to state IdentityItem id cannot be empty or nil (resolves #92) by @kevinlind in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/97
+* Dev -> Staging (tvOS support)  by @addb in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/94
+* Update to staging dependencies for tvOS changes  by @addb in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/98
+* Staging -> Main - v1.2.0 Release - tvOS support by @addb in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/99
+
+## New Contributors
+* @cacheung made their first contribution in https://github.com/adobe/aepsdk-edgeidentity-ios/pull/88
+
+**Full Changelog**: https://github.com/adobe/aepsdk-edgeidentity-ios/compare/1.1.0...1.2.0
+
 ## July 25, 2023
 
 ### Android EdgeIdentity 2.0.1

@@ -7,6 +7,110 @@ Keywords:
 
 # Release notes
 
+## January 17, 2024
+
+### iOS Assurance 4.1.1
+
+* Fixed a race condition which could happen when the Assurance session is terminated.
+
+
+## November 30, 2023
+
+### Roku SDK 1.1.0-alpha
+
+## 🚀 What's New
+
+🆕 **Streaming Media for Edge Support**
+---
+
+Alpha release of the Adobe Streaming Media for Edge Network which sends data about audio and video consumption on your streaming applications to the Adobe Experience Platform Edge Network. This enables capabilities for measurement, analysis, and activation with media data across the Adobe Experience Cloud solutions.
+
+- **Added new APIs and configuration for tracking media.**
+
+- **Customizable Ping Interval:** Define custom ping intervals for both main and ad content to suit your tracking preferences.
+
+- **Detailed Migration Guide:** A comprehensive [migration guide](https://github.com/adobe/aepsdk-roku/blob/main/Documentation/media-migration.md) to transition from [Adobe Media SDK](https://github.com/Adobe-Marketing-Cloud/media-sdks/tree/master/sdks/roku) to [Adobe Experience Platform Roku SDK](https://github.com/adobe/aepsdk-roku).
+
+
+➕ **Edge**
+---
+- Added support to create multiple instances of the SDK.
+
+📓 **Documentation & Sample Channel:**
+---
+- [Getting Started](https://github.com/adobe/aepsdk-roku/blob/main/Documentation/getting-started.md)
+- [API Reference](https://github.com/adobe/aepsdk-roku/blob/main/Documentation/api-reference.md)
+- [Migration Guide for Media](https://github.com/adobe/aepsdk-roku/blob/main/Documentation/media-migration.md)
+- [Sample App](https://github.com/adobe/aepsdk-roku/blob/main/sample/simple-videoplayer-channel/README.md)
+<details>
+
+<summary>Click to view the full changelog</summary>
+
+* Staging -> Main [ v1.1.0-alpha Release ] (#131) @addb
+* Get latest changes from dev -> staging (#133) @addb
+* Update Migration guide sample for custom metadata and sample app fixes to stop timer on video complete (#132) @addb
+* Dev -> Staging [v1.1.0-alpha Release] - Media Support (#129) @addb
+* Cleanup Sample app (#130) @addb
+* [New Capability] Streaming Media for Edge Network (#126) @addb
+* Update SDK names in the documentation (#128) @addb
+* Log improvements and minor refactoring. (#125) @addb
+* [Migration Guide] Add tables with required fields in the schema + Minor Refactor (#124) @addb
+* Add Migration Guide for Media (#123) @addb
+* Log improvements + code cleanup + fixes (#122) @addb
+* Update version to 1.1.0-alpha (#119) @yangyansong-adbe
+* Update API doc with media supported configuration keys (#121) @yangyansong-adbe
+* Small update for the sample app (#120) @yangyansong-adbe
+* Add integration tests for media tracking APIs (#115) @yangyansong-adbe
+* Update getting-started document (#116) @yangyansong-adbe
+* Handle events from inactive sessions (#117) @yangyansong-adbe
+* Handle session-level configuration (#113) @yangyansong-adbe
+* Add Media Unit tests - Part 2 (#114) @addb
+* Add unit tests for Media module (#110) @addb
+* Update API references for media tracking APIs (#111) @yangyansong-adbe
+* Implement session Manager - Initial Structure, Setup and Usage (#106) @addb
+* Update sample app (for media tracking APIs) (#109) @yangyansong-adbe
+* Refactoring the (dev) app code for clarity (#108) @yangyansong-adbe
+* Cleanup for the media tracking PR (#105) @yangyansong-adbe
+* Support creating multiple API instances (#102) @yangyansong-adbe
+* Media tracking APIs (#101) @yangyansong-adbe
+* Update configuration module to support media keys (#91) @yangyansong-adbe
+* Support path overwrite in Edge requests (#90) @yangyansong-adbe
+* Add a doc for SDK development (#88) @yangyansong-adbe
+* Add badges to the main README (#87) @yangyansong-adbe
+
+</details>
+
+
+## October 20, 2023
+
+### Android Target 2.0.2
+
+* Added support for X-EXC-SDK and X-EXC-SDK-Version headers containing SDK info and version details to help determine requests' source when using Adobe Target Splunk queries.
+
+## June 3, 2023
+
+### iOS EdgeBridge 4.0.0
+
+## Highlights
+* Updated the minimum supported version to iOS 11.0 and tvOS 11.0. 
+* Include xcframeworks built with Xcode 14.1 with the GH release.
+
+## What’s Changed
+
+* update archive zip file name (#45) @cacheung
+* Staging --> main v4.0.0 release (#42) @cacheung
+* Update ci-pod-repo-update in makefile (#43) (#44) @cacheung
+* Update ci-pod-repo-update in makefile (#43) @cacheung
+* Dev --> Staging v4.0.0 release (#40) @cacheung
+* Update Package.swift version and remove .resolved files in the tutorial app (#41) @cacheung
+* Update EdgeBridge to major version 4.0, minimum Xcode version to 14.1 and iOS 11.  (#38) @cacheung
+* Down merge main to dev: Update dev resources to main (#33) (#34) @kevinlind
+* Update tutorial references from `dev` to `main` (#33) @timkimadobe
+* Down merge Gemfile.lock update from Main to Dev (#31) @kevinlind
+* Update gems to fix Dependabot errors (#30) @kevinlind
+* Downmerge v1.0.0 release from `main` to `dev` (#29) @timkimadobe
+
+
 ## January 8, 2024
 
 ### iOS Media 4.0.1
@@ -530,6 +634,10 @@ Please do not use this release for tvOS. Use the 4.2.1 release instead.
 
 ## August 7, 2023
 
+### AEP React Native Target 5.0.2
+
+- Bug fixes for Android
+
 ### Roku SDK 1.0.0
 
 This is the first stable release of the Roku SDK, which exposes APIs to help developers to integrate the Adobe Experience Platform solutions with the Roku channel.
@@ -607,6 +715,10 @@ For more information, refer to the documentation below:
 
 ## July 25, 2023
 
+### AEP React Native  adobe/react-native-messaging
+
+Updated to use the 4.x AEP iOS library.
+
 ### Android EdgeIdentity 2.0.1
 
 * Added validation to ignore `IdentityItem`s with an empty ID value.
@@ -653,6 +765,16 @@ For more information, refer to the documentation below:
 
 ## June 29, 2023
 
+### Roku SDK 1.0.0-alpha1
+
+Early build for the AEP Roku SDK. 
+
+For more information, refer to the documentation below:
+
+- [Getting Started](https://github.com/adobe/aepsdk-roku/blob/1.0.0-alpha1/Documentation/getting-started.md)
+- [API Reference](https://github.com/adobe/aepsdk-roku/blob/1.0.0-alpha1/Documentation/api-reference.md)
+- [Sample App](https://github.com/adobe/aepsdk-roku/blob/1.0.0-alpha1/sample/simple-videoplayer-channel/README.md)
+
 ### Android BOM 2.0.1
 
 * This BOM ([Bill of Materials](https://central.sonatype.com/artifact/com.adobe.marketing.mobile/sdk-bom/2.0.1)) release includes changes to the following Android extensions.
@@ -693,6 +815,11 @@ For more information, refer to the documentation below:
 * Resolved a crash that occurred when dismissing in-app messages.
 
 ## June 20, 2023
+
+### AEP React Native Userprofile 5.0.0
+
+## What's Changed
+* Updated to use the 4.x AEP iOS library.
 
 ### AEP React Native libraries 5.0.0
 
@@ -748,6 +875,12 @@ The following React Native libraries have been upgraded to use the version 4 of 
 </Accordion>
 
 ## June 15, 2023
+
+### undefined undefined undefined
+
+* iOS 11 minimum deployment version, previously 10
+* Bumps all iOS AEP SDK extensions to 4.x
+
 
 ### Android Core 2.2.2
 
@@ -841,6 +974,34 @@ Note that all these extensions must be updated together.
 
 ## June 7, 2023
 
+### iOS EdgeMedia 4.0.0
+
+General availability release of the Adobe Streaming Media for Edge Network extension for Android which sends data about audio and video consumption on your streaming applications to the Adobe Experience Platform Edge Network. This enables capabilities for measurement, analysis, and activation with media data across the Adobe Experience Cloud solutions.
+
+-----------
+
+## What’s Changed
+
+* Staging -> Main v4.0.0 release (#35) @addb
+* Update README + Increase functional test timeout (#38) @addb
+* dev -> staging with friendly name (#37) @emdobrin
+* Update friendly name for the extension (#36) @addb
+* Merge to Staging for GA 4.0.0 release (#33) @kevinlind
+* Add before starting section to getting-started doc (#34) @addb
+* Update formal extension name in documentation (#32) @kevinlind
+* Update Min supported version to iOS 11, tvOS 11 and Xcode 14.1 + Extension version Bump to 4.0.0 (#31) @kevinlind
+* Update ObjC class, enum names to avoid conflicts with AEPMedia classes (#27) @addb
+* Change config keys in docs to correct camelcase (#30) @kevinlind
+* Add Media+LocationHint integration tests (#28) @addb
+* Rename MediaPublicTracker to MediaTrackerEventGenerator (#25) @kevinlind
+* Change configuration key names to camelcase 'edgeMedia.' (#24) @addb
+* Fixed timer logic + refactored getCurrentTimeStamp() to return in seconds (#23) @addb
+* Convert numeric parameters in the APIs to Int (#22) @addb
+* Use EventType and EventSource from Core development branch (#21) @kevinlind
+* Refactor MediaSession functions to remove session end closure (#17) @kevinlind
+* Remove session created event (#15) @kevinlind
+
+
 ### iOS Target 4.0.0
 
 Major version update for [Adobe Target](../../solution/adobe-target/index.md) for Adobe Experience Platform Mobile SDKs on iOS compatible with Mobile Core 4.0.0. The current release includes the following changes:
@@ -914,6 +1075,23 @@ Major version update for [User Profile](../base/profile/index.md) for Adobe Expe
 * Include XCFrameworks built with Xcode 14.1 with the GitHub release.
 
 ## June 2, 2023
+
+### iOS EdgeConsent 4.0.0
+
+## Highlights
+* Updated the minimum supported version to iOS 11.0 and tvOS 11.0. 
+* Include xcframeworks built with Xcode 14.1 with the GH release.
+
+## What’s Changed
+
+* Staging -> Main v4.0.0 release (#84) @addb
+* dev -> staging for v4.0.0 release (#82) @addb
+* Update to prod dependencies for Core/Services (#83) @addb
+* Update SwiftLint to 0.52.0 (#81) @kevinlind
+* Update dependencies to the version with Xcode 14.1 and iOS 11 support (#80) @addb
+* Update Min supported version to iOS 11, tvOS 11 and Xcode 14.1  + Extension version Bump to 4.0.0 (#79) @addb
+* Sync dev branch with main branch (#77) @addb
+
 
 ### iOS Edge Bridge 4.0.0
 
@@ -1231,6 +1409,13 @@ With this release, the extension enables a drop-in solution for converting gener
 * Updated the minimum supported versions to iOS 11.0, tvOS 11.0.
 
 ## March 9, 2023
+
+### iOS EdgeMedia 1.0.0-beta
+
+## Beta Release
+
+- New to AEPEdgeMedia refer to the [getting started guide](https://github.com/adobe/aepsdk-edgemedia-ios/blob/staging/Documentation/getting-started.md) and the [API reference](https://github.com/adobe/aepsdk-edgemedia-ios/blob/1.0.0-beta/Documentation/api-reference.md).
+- Moving from AEPMedia to AEPEdgeMedia refer to the [migration guide](https://github.com/adobe/aepsdk-edgemedia-ios/blob/1.0.0-beta/Documentation/migration-guide.md) 
 
 ### AEP React Native libraries
 
