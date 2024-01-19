@@ -7,6 +7,37 @@ Keywords:
 
 # Release notes
 
+## January 19, 2024
+
+### Roku SDK 1.1.0-beta
+
+* Support non-xdm data in `SendEvent` API 
+## Breaking change
+Please review the breaking change below and make the necessary changes to make your code be compatible with the AEP Roku SDK 1.1.0-beta.
+- The XDM data passed to the `sendEvent` API should be wrapped in a root object.
+
+```diff
+xdmData = {
+    "eventType": "commerce.orderPlaced",
+    "commerce": {
+      .....
+    }
+}
+
+- m.aepSdk.sendEvent(xdmData)
+
++ m.aepSdk.sendEvent({
++    "xdm": xdmData
++ })
+```
+For more information, please see the [API reference](https://github.com/adobe/aepsdk-roku/blob/main/Documentation/api-reference.md#sendEvent).
+
+## January 17, 2024
+
+### iOS Assurance 4.1.1
+
+* Fixed a race condition which could happen when the Assurance session is terminated.
+
 ## January 8, 2024
 
 ### iOS Media 4.0.1
