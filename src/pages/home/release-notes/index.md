@@ -7,6 +7,98 @@ Keywords:
 
 # Release notes
 
+## April 12, 2024
+
+### React Native Edgebridge 6.0.0
+
+Major version update for Edge Bridge for Adobe Experience Platform React Native Library compatible with React Native Core 6.0.0. The current release includes the following changes:
+
+* Updated to use Experience Platform Android `3.x` SDKs.
+* Updated to use Experience Platform iOS `5.x` SDKs
+* Updated Edge Bridge data format to enhance support for migrating to sending data via Edge Network to Adobe Analytics and reduce the effort required for mapping data to XDM.
+* If you are currently using React Native Edge Bridge version 5.x  and you are mapping data to XDM in your datastream, adjustments will be necessary when adopting version 6.0.0.
+
+### React Native Campaignclassic 6.0.0
+
+Major version update for Campaign Classic for Adobe Experience Platform React Native Library compatible with React Native Core 6.0.0. The current release includes the following changes:
+
+* Updated to use Experience Platform Android `3.x` SDKs.
+* Updated to use Experience Platform iOS `5.x` SDKs
+
+### React Native Target 6.0.0
+
+Major version update for Target for Adobe Experience Platform React Native Library compatible with React Native Core 6.0.0. The current release includes the following changes:
+
+* Updated to use Experience Platform Android `3.x` SDKs.
+* Updated to use Experience Platform iOS `5.x` SDKs
+
+### React Native Places 6.0.0
+
+Major version update for Places for Adobe Experience Platform React Native Library compatible with React Native Core 6.0.0. The current release includes the following changes:
+
+* Updated to use Experience Platform Android `3.x` SDKs.
+* Updated to use Experience Platform iOS `5.x` SDKs
+
+### React Native Optimize 6.0.0
+
+Major version update for Adobe Journey Optimizer - Decisioning Extension for Adobe Experience Platform React Native Library compatible with React Native Core 6.0.0. The current release includes the following changes:
+
+* Updated to use Experience Platform Android `3.x` SDKs.
+* Updated to use Experience Platform iOS `5.x` SDKs
+
+### React Native Messaging 6.0.0
+
+Major version update for Adobe Journey Optimizer for Adobe Experience Platform React Native Library compatible with React Native Core 6.0.0. The current release includes the following changes:
+
+* Updated to use Experience Platform Android `3.x` SDKs.
+* Updated to use Experience Platform iOS `5.x` SDKs
+
+### React Native Consent 6.0.0
+
+Major version update for Consent for Edge Network for Adobe Experience Platform React Native Library compatible with React Native Core 6.0.0. The current release includes the following changes:
+
+* Updated to use Experience Platform Android `3.x` SDKs.
+* Updated to use Experience Platform iOS `5.x` SDKs
+
+### React Native Edgeidentity 6.0.0
+
+Major version update for Identity for Edge Network Adobe Experience Platform React Native Library compatible with React Native Core 6.0.0. The current release includes the following changes:
+
+* Updated to use Experience Platform Android `3.x` SDKs.
+* Updated to use Experience Platform iOS `5.x` SDKs
+
+### React Native Edge 6.0.0
+
+Major version update for Edge Network for Adobe Experience Platform React Native Library compatible with React Native Core 6.0.0. The current release includes the following changes:
+
+* Updated to use Experience Platform Android `3.x` SDKs.
+* Updated to use Experience Platform iOS `5.x` SDKs
+
+### React Native Userprofile 6.0.0
+
+Major version update for User [Profile for Adobe Experience Platform React Native Library](https://github.com/adobe/aepsdk-react-native/tree/main/packages/userprofile) compatible with React Native Core 6.0.0. The current release includes the following changes:
+
+* Updated to use Experience Platform Android `3.x` SDKs.
+* Updated to use Experience Platform iOS `5.x` SDKs
+
+### React Native Assurance 6.0.0
+
+Major version update for Assurance for Adobe Experience Platform React Native Library compatible with React Native Core 6.0.0. The current release includes the following changes:
+
+* Updated to use Experience Platform Android `3.x` SDKs.
+* Updated to use Experience Platform iOS `5.x` SDKs
+
+### React Native Core 6.0.0
+
+Major version update for Adobe Experience Platform React Native libraries. The current release includes the following changes:
+
+* Updated to use Experience Platform Android `3.x` SDKs.
+* Updated to use Experience Platform iOS `5.x` SDKs, which include the `privacy manifest`.
+* Deprecated `MobileCore.log `API to align with the native platforms.
+* Updated `MobileCore.dispatchEventWithResponseCallback` API with a timeout parameter.
+
+To learn how Apple's privacy related announcements made in WWDC of 2023 affect the Mobile SDK, please read the guide on [iOS privacy manifest and related changes](https://developer.adobe.com/client-sdks/resources/privacy-manifest).
+
 ## April 3, 2024
 
 ### Android Mobile Core 3.x and compatible extensions
