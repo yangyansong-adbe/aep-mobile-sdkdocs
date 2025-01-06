@@ -27,6 +27,8 @@ const DRY_RUN = process.argv.includes("--dry-run")
 
 // Before running the script, make sure the default time zone is set to PST in the GitHub action
 // TODO: For some reason, the code below to update the timezone of the Github Action runners is not working. Ignore this step for now and will fix it later.
+const offset = new Date().getTimezoneOffset()
+console.log(offset);
 // if (!setTimeZoneToPST()) {
 //     throw new Error("The default time zone is not set to PST")
 // }
